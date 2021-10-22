@@ -1,0 +1,80 @@
+content-section {
+    height    : 75vh;
+    overflow  : hidden;
+    overflow-y: scroll;
+}
+
+content-section::-webkit-scrollbar {
+    width: 12px;
+}
+
+content-section::-webkit-scrollbar-track {
+    background: #BFB1A4;
+}
+
+content-section::-webkit-scrollbar-thumb {
+    background-color: #A2DCF2;
+    border-radius   : 20px;
+}
+
+/*
+CONTENT
+*/
+content-section #content {
+    scrollbar-width: thin;
+    scrollbar-color: var(#90A4AE) var(#CFD8DC);
+    text-shadow    : 2px 1px 4px rgba(150, 150, 150, 1);
+    padding        : 0px 10px 0px 0px;
+}
+
+/*
+BANNER
+*/
+content-section #banner_stories {
+    position             : relative;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    height               : 20vh;
+    background-position-y: 80%;
+}
+
+content-section #banner_stories #banner_stories_controls {
+    position        : absolute;
+    color           : #FFFFFF;
+    background-color: rgba(000, 000, 000, 0.7);
+    bottom          : 0px;
+    width           : 100%;
+    padding         : 10px;
+}
+
+content-section #banner_stories #banner_stories_controls button {
+    background-color: #7b5ec6;
+    color           : #FFFFFF;
+}
+
+content-section #content {
+    height    : 100%;
+    max-height: 100%;
+    padding   : 5px 5px 5px 20px;
+}
+
+/*CONTENT BOXES*/
+content-section .content_box {
+    border-radius   : 5px;
+    padding         : 0px 0px 0px 5px;
+    line-height     : 30px;
+    height          : 80%;
+    max-height      : 80%;
+    border          : 1px solid #000000;
+    font-size       : 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color           : #000000;
+    ;
+}
+
+/*
+CONTENT AUTHOR
+*/
+content-section #about_author {
+    margin-left: 10px;
+}

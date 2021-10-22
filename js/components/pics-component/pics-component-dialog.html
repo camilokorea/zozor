@@ -1,0 +1,63 @@
+<md-dialog aria-label="My Pictures" id="pics-dialog">
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>My Pictures</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon aria-label="Close" class="material-icons">close</md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+      <h1>My Pictures</h1>
+      <md-grid-list
+        md-cols="1"
+        md-cols-sm="2"
+        md-cols-md="3"
+        md-cols-gt-md="6"
+        md-row-height-gt-md="1:1"
+        md-row-height="4:3"
+        md-gutter="8px"
+        md-gutter-gt-sm="4px"
+        ng-if="!picture"
+      >
+        <md-grid-tile
+          ng-click="showPic('../../../images/fotos/' + tile.backgroundImage + '.jpg')"
+          ng-repeat="tile in tiles"
+          md-rowspan="{{tile.span.row}}"
+          md-colspan="{{tile.span.col}}"
+          md-colspan-sm="1"
+          md-colspan-xs="1"
+          ng-class="tile.background"
+          style="background-image: url(../../../images/fotos/{{tile.backgroundImage}}.jpg);"
+        >
+        </md-grid-tile>
+      </md-grid-list>
+      <section
+        layout="row"
+        layout-align="center center"
+        ng-if="picture"
+      >
+        <img src="{{ picture }}" id="picture" />
+      </section>
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <md-button
+        ng-if="picture"
+        ng-click="back()"
+        style="margin-right: 20px"
+        class="md-raised"
+      >
+        Back
+      </md-button>
+      <md-button
+        ng-click="cancel()"
+        style="margin-right: 20px"
+        class="md-raised"
+      >
+        Close
+      </md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

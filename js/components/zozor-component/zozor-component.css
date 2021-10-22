@@ -1,0 +1,11 @@
+#zozor {
+  background-image: url(/images/zozor.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  width: 113px;
+  height: 114px;
+  filter: drop-shadow(1px 4px 1px #000000);
+  border-radius: 50%;
+  background-color: #a2dcf2;
+}

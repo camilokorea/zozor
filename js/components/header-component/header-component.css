@@ -1,0 +1,39 @@
+header-section {
+    height: 17vh;
+}
+
+header-section header #title {
+    padding: 20px 0px 0px 20px;
+}
+
+header-section header #title * {
+    margin: 0px;
+}
+
+header-section header #title h1 {
+    background-image : url(../../../images/zozor_logo.png);
+    background-repeat: no-repeat;
+    background-size  : contain;
+    text-indent      : 70px;
+    font-family      : 'BallparkWeiner';
+    font-size        : 50px;
+    padding          : 15px 0px 0px 0px;
+}
+
+header-section header #title h3 {
+    text-align: center;
+}
+
+header-section nav {
+    width           : 100%;
+    padding         : 10px;
+    border          : 1px solid #000000;
+    border-radius   : 5px;
+    background-color: rgba(000, 000, 000, 0.7);
+}
+
+header-section nav a {
+    font-size     : 23px;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+}

@@ -1,0 +1,43 @@
+<md-dialog aria-label="About the Author" id="author-dialog">
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>About the author</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon aria-label="Close" class="material-icons">close</md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+      <header layout="column" layout-align="center center">
+        <zozor-logo></zozor-logo>
+        <h1>About the author</h1>
+      </header>
+      <article>
+        <p>
+          Let me instroduce myself: My name is Zozor. I was born on 23 November
+          2005.
+        </p>
+        <p>
+          A bit meager, is it not? This is why I've now decided to write my
+          biography to let my readers now who I really am.
+        </p>
+      </article>
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <md-button layout="row" layout-align="center center">
+        <img src="./images/social/facebook.png" />
+      </md-button>
+      <md-button layout="row" layout-align="center center">
+        <img src="./images/social/twitter.png" />
+      </md-button>
+      <md-button layout="row" layout-align="center center">
+        <img src="./images/social/vimeo.png" />
+      </md-button>
+      <md-button layout="row" layout-align="center center">
+        <img src="./images/social/flickr.png" />
+      </md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

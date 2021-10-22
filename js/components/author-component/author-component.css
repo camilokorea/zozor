@@ -1,0 +1,55 @@
+#author {
+  top: 9vh;
+  right: 10vw;
+}
+
+@media only screen and (min-width: 2560px) {
+  #author {
+    right: 20vw;
+  }
+}
+
+#author h2 {
+  font-size: 30px;
+}
+
+#author-dialog {
+  width: 70vw;
+  border-radius: 30px;
+  border: 1px solid #000000;
+}
+
+#author-dialog md-dialog-content {
+  padding: 20px;
+}
+
+#author-dialog .md-toolbar-tools {
+  background-color: #0d9dc5 !important;
+}
+
+#author-dialog md-tabs.md-default-theme .md-tab.md-active,
+#author-dialog md-tabs .md-tab.md-active,
+#author-dialog md-tabs.md-default-theme .md-tab.md-active md-icon,
+#author-dialog md-tabs .md-tab.md-active md-icon,
+#author-dialog md-tabs.md-default-theme .md-tab.md-focused,
+#author-dialog md-tabs .md-tab.md-focused,
+#author-dialog md-tabs.md-default-theme .md-tab.md-focused md-icon,
+#author-dialog md-tabs .md-tab.md-focused md-icon {
+  color: #0d9dc5 !important;
+}
+
+#author-dialog md-tabs.md-default-theme md-ink-bar,
+#author-dialog md-tabs md-ink-bar {
+  color: #0d9dc5 !important;
+  background: #0d9dc5 !important;
+}
+
+#author-dialog md-dialog-content::-webkit-scrollbar {
+  width: 12px;
+}
+
+#author-dialog button {
+  min-height: 42px !important;
+  min-width: 42px !important;
+  border-radius: 0px 10px 0px 10px;
+}

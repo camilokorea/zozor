@@ -1,0 +1,22 @@
+#tweet {
+  top: 40vh;
+  right: 10vw;
+}
+
+@media only screen and (min-width: 2560px) {
+  #tweet {
+    right: 20vw;
+  }
+}
+
+#tweet:hover {
+  background-color: #2fd1ff;
+}
+
+#tweet h2 {
+  font-size: 30px;
+}
+
+#tweet p {
+  font-size: 15px;
+}

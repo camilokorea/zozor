@@ -1,0 +1,54 @@
+#traveler {
+  top: 70vh;
+  right: 10vw;
+}
+
+@media only screen and (min-width: 2560px) {
+  #traveler {
+    right: 20vw;
+  }
+}
+
+#traveler:hover {
+  background-color: #974e99;
+  color: #ffffff;
+}
+
+#traveler h2 {
+  font-size: 30px;
+}
+
+#traveler-dialog {
+  width: 70vw;
+  border-radius: 30px;
+  border: 1px solid #000000;
+}
+
+#traveler-dialog md-dialog-content {
+  padding: 20px;
+}
+
+#traveler-dialog .md-toolbar-tools {
+  background-color: #974e99 !important;
+}
+
+#traveler-dialog md-tabs.md-default-theme .md-tab.md-active,
+#traveler-dialog md-tabs .md-tab.md-active,
+#traveler-dialog md-tabs.md-default-theme .md-tab.md-active md-icon,
+#traveler-dialog md-tabs .md-tab.md-active md-icon,
+#traveler-dialog md-tabs.md-default-theme .md-tab.md-focused,
+#traveler-dialog md-tabs .md-tab.md-focused,
+#traveler-dialog md-tabs.md-default-theme .md-tab.md-focused md-icon,
+#traveler-dialog md-tabs .md-tab.md-focused md-icon {
+  color: #974e99 !important;
+}
+
+#traveler-dialog md-tabs.md-default-theme md-ink-bar,
+#traveler-dialog md-tabs md-ink-bar {
+  color: #974e99 !important;
+  background: #974e99 !important;
+}
+
+#traveler-dialog md-dialog-content::-webkit-scrollbar {
+  width: 12px;
+}
