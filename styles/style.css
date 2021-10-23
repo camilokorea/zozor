@@ -1,11 +1,7 @@
 ﻿@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
-@import "../js/components/header-component/header-component.css";
 @import "../js/components/zozor-component/zozor-component.css";
-@import "../js/components/footer-component/footer-component.css";
-@import "../js/components/content-component/content-component.css";
 @import "../js/components/traveler-component/traveler-component.css";
 @import "../js/components/author-component/author-component.css";
-@import "../js/components/banner-component/banner-component.css";
 @import "../js/components/rotator-component/rotator-component.css";
 @import "../js/components/logo-component/logo-component.css";
 @import "../js/components/pics-component/pics-component.css";

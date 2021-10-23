@@ -51,10 +51,7 @@
     />
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
 
-    <script src="js/components/header-component/header-component.js"></script>
     <script src="js/components/zozor-component/zozor-component.js"></script>
-    <script src="js/components/footer-component/footer-component.js"></script>
-    <script src="js/components/content-component/content-component.js"></script>
     <script src="js/components/traveler-component/traveler-component.js"></script>
     <script src="js/components/author-component/author-component.js"></script>
     <script src="js/components/rotator-component/rotator-component.js"></script>
@@ -70,12 +67,23 @@
   </head>
 
   <body layout="column" layout-align="center center">
-    <logo></logo>
-    <traveler></traveler>
-    <author></author>
-    <pics></pics>
-    <rotator></rotator>
-    <reflections></reflections>
-    <tweet></tweet>
+    <div hide-xs hide-sm hide-md show-lg show-xl>
+      <logo></logo>
+      <traveler></traveler>
+      <author></author>
+      <pics></pics>
+      <rotator></rotator>
+      <reflections></reflections>
+      <tweet></tweet>
+    </div>
+    <div show-xs hide-sm hide-md hide-lg hide-xl>
+      <logo></logo>
+      <traveler></traveler>
+      <author></author>
+      <pics></pics>
+      <rotator></rotator>
+      <reflections></reflections>
+      <tweet></tweet>
+    </div>
   </body>
 </html>

@@ -1,24 +1,9 @@
 angular
   .module("zozorApp", ["ngMaterial", "ngMessages"])
-  .component("headerSection", {
-    transclude: true,
-    controller: HeaderController,
-    templateUrl: "/js/components/header-component/header-component.html",
-  })
   .component("zozorLogo", {
     transclude: true,
     controller: ZozorLogoController,
     templateUrl: "/js/components/zozor-component/zozor-component.html",
-  })
-  .component("contentSection", {
-    transclude: true,
-    controller: ContentController,
-    templateUrl: "/js/components/content-component/content-component.html",
-  })
-  .component("footerSection", {
-    transclude: true,
-    controller: FooterController,
-    templateUrl: "/js/components/footer-component/footer-component.html",
   })
   .component("traveler", {
     transclude: true,
